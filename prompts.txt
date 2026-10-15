@@ -1,0 +1,61 @@
+PROMPTS USED - Generative AI Assignment 2
+Name: Muhammad Haroon Aziz    Roll No: i22-2697    Section: B
+AI tool used: Claude (Anthropic)
+
+Note: prompts are listed in the order they were given. Short messages that only
+pasted an error or a screenshot are described in brackets.
+
+==========================================================
+GENERAL / SETUP (applies to both questions)
+==========================================================
+1. [Pasted the full assignment text for Question 1 and Question 2 and asked:]
+   "is this group or individual assignment and also how to do this do i have to kaggle or what ?"
+
+2. "i want u to guide me to complete both the question in detail and give me the instruction to complete it and also tell me what to use can i complete in the kaggle ?"
+
+3. "guide me from step 1 and how to use the dataset and do i have download it and also what about the api keys and also the environment and accelerator"
+
+4. "what this error ?"  [pasted a screenshot of a KeyboardInterrupt raised inside "import torch"]
+
+==========================================================
+QUESTION 1 - Denoising Autoencoder
+==========================================================
+1. [Pasted DataLoader error: "module 'torch' has no attribute '_utils'" after running the dataset step]
+2. "yes i saw the output [torch.Size([64, 3, 64, 64]) ... 6000 1000 2000] now give me the next cells"
+3. "the cell 1 is not running in the noise function and the cell 2 is showing this output [Gaussian MSE / salt-and-pepper fraction]"
+4. [Pasted the noise-function cell and asked:] "is this correct and the cell is not even prints"
+5. [Pasted printed function objects:] "this is what i see"
+6. "give me the next cells and give me all the cells for question 1"
+7. "this was cell 2 clean = next(iter(train_dl))[:8] ... and after this u gave me cell 5"
+8. [Screenshot of noise figures and fixed noisy sets]
+9. "cell 6 output: SSIM mine=0.1861 | skimage=0.1861"
+10. "now give me the next cells"
+11. "the cell 7 is taking a lot of time it still running and nothing has happened yet"
+12. "i deleted the cell [pasted the training function] now what to do"
+13. [Screenshot: training logs, loss curves and main results table]
+14. [Screenshot: clean / noisy / denoised figures] "give me the next cells"
+15. [Pasted all experiment logs, tables (noise levels, robustness, bottleneck), figures and the output file list]
+
+==========================================================
+QUESTION 2 - CycleGAN and Flask UI
+==========================================================
+1. "now give me the question 2 in detail right from the dataset to the last cell"
+2. [Pasted CUDA check and dataset folder listing, plus the image-detection output]
+3. [Pasted my Cell 4 and the replacement Cell 4:] "should i run this or the one u gave me above"
+4. "no output for the cell 4 ?"
+5. [Screenshot of photo/sketch preview:] "the sketches below does not match the pics above does it need to be matched ?"
+6. [Screenshots of Cell 5 and Cell 6 outputs]
+7. "no output by cell 7 and cell 8"
+8. "mine was 60 and 30 ?"
+9. [Screenshot of 2-epoch smoke test: ~486 s per epoch]
+10. [Pasted my Cell 2 with EPOCHS=40, DECAY_START=20 for review]
+11. [Pasted FileNotFoundError when deleting last.pth]
+12. [Screenshot of Cells 13-14 and later the full 30-epoch training log and loss curves]
+13. "cell 10 output"
+14. [Screenshot of test_results.png and Kaggle output panel:]
+    "now tell me what to do and how to do the flask part and also tell me why is every pic the same"
+15. "give me a prompt to do the remaining task in my IDE and i have downloaded all the things u have told me to do"
+16. "so what to expect from the app the flask one ?"
+17. "so why did i have to download the test png and these ones? bcz they are not used only weights are used"
+18. "how to run the app give me a prompt i have built the app but its not running"
+19. [Prompt given to my IDE assistant to debug/run the Flask app - the text produced in prompt 18 above]
